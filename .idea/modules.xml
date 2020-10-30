@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/Data Structures and Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotTopicTop100OnLeetCode/HotTopicTop100OnLeetCode.iml" filepath="$PROJECT_DIR$/HotTopicTop100OnLeetCode/HotTopicTop100OnLeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JianZhiOffer/JianZhiOffer.iml" filepath="$PROJECT_DIR$/JianZhiOffer/JianZhiOffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmallQuestions/SmallQuestions.iml" filepath="$PROJECT_DIR$/SmallQuestions/SmallQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/sanshuzhihe/sanshuzhihe.iml" filepath="$PROJECT_DIR$/sanshuzhihe/sanshuzhihe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shuzu/shuzu.iml" filepath="$PROJECT_DIR$/shuzu/shuzu.iml" />
     </modules>
   </component>
 </project>
