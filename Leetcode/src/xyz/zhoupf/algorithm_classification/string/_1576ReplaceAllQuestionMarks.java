@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class _1576ReplaceAllQuestionMarks {
 
     //从前面开始遍历，遇到问号就对比前面和后面的 用一个不与前面和后面一致的字符代替就好了
-    public String modifyString(String s) {
+    public static String modifyString(String s) {
         char[] chars = s.toCharArray();
 
         for (int i = 0; i < chars.length; i++) {
@@ -33,5 +33,29 @@ public class _1576ReplaceAllQuestionMarks {
         return new String(chars);
     }
 
+    public static void main(String[] args) {
+        String str = "a?c?b";
+        System.out.println(modifyString(str));
+        System.out.println(modifyString1(str));
+    }
+
+    public static String modifyString1(String s) {
+        char[] chars = s.toCharArray();
+
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == '?') {
+                // 下面两步操作就是寻找当前字符的前一个字符和后一个字符
+                char ahead = i == 0 ? ' ' : chars[i - 1];
+                char behind = i == chars.length-1 ? ' ' : chars[i + 1];
+
+                char temp = 'a';
+                while (ahead == temp || behind == temp) {
+                    temp++;
+                }
+                chars[i] = temp;
+            }
+        }
+        return new String(chars);
+    }
 
 }
